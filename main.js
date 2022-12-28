@@ -28,7 +28,7 @@ const { Client, LocalAuth, MessageMedia, Chat } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 
 // Path where the session data will be stored
-const SESSION_FILE_PATH = './wwebjs_auth/session/Default/Session_Storage/MANIFEST-000001';
+const SESSION_FILE_PATH = './Session_Storage/MANIFEST-000001';
 
 // Load the session data if it has been previously saved
 let sessionData;
